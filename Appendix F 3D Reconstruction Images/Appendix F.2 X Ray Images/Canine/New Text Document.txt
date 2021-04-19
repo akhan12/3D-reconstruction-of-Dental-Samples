@@ -1,0 +1,25 @@
+test=Outer_reconstruction([vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],1,extn1,extn2,extn3,extn4)
+
+ test=Outer_reconstruction(vnslopeint3(1),n3middleright(1)],1,extn3)
+
+test=Outer_reconstruction([vpslopeint1(1),p1middleright(1);pnslopeint2(1),p2middleright(1);pnslopeint3(1),p3middleright(1)],1,extp1,extp2,extp3)
+
+test=Outer_reconstruction([vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],1,extp1,extp2,extp3,extn1,extn2,extn3,extn4)
+
+test=Outer_reconstruction([vzslopeint(1),zmiddleright(1);vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],1,extzero,extp1,extp2,extp3,extn1,extn2,extn3,extn4)
+
+test=Outer_reconstruction([vzslopeint(1),zmiddleright(1);vninslopeint(1),nintymiddleright(1);vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],1,extzero,extninty,extp1,extp2,extp3,extn1,extn2,extn3,extn4)
+
+[test,testtrans,testrot]=Outer_reconstruction([vzslopeint(1),zmiddleright(1);vninslopeint(1),nintymiddleright(1);vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],rot_angles,extzero,extninty,extp1,extp2,extp3,extn1,extn2,extn3,extn4);
+
+[test,testtrans,testrot,firstrecon]=Outer_reconstruction([vzslopeint(1),zmiddleright(1);vninslopeint(1),nintymiddleright(1);vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],rot_angles,extzero,extninty,extp1,extp2,extp3,extn1,extn2,extn3,extn4);
+
+threedPlotter(firstrecon)
+
+InnerReconstruction(zerocanal, nintycanal);
+
+test_in=InnerReconstruction(zerocanal,nintycanal);
+
+[test_in2,inner3d]=InnerReconstruction(zerocanal,nintycanal,[vzslopeint(1),zmiddleright(1);vninslopeint(1),nintymiddleright(1);vpslopeint1(1),p1middleright(1);vpslopeint2(1),p2middleright(1);vpslopeint3(1),p3middleright(1);vnslopeint1(1),n1middleright(1);vnslopeint2(1),n2middleright(1);vnslopeint3(1),n3middleright(1);vnslopeint4(1),n4middleright(1)],rot_angles);
+
+threedPlotter_interpolate(firstrecon,'firstplyinterpol',50);

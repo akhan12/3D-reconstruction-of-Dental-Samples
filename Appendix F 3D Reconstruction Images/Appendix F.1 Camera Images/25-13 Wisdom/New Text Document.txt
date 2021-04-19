@@ -1,0 +1,13 @@
+[line1,line2_1,line3,line4,line5_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1])
+
+ply_write('outer',[line1,line2_1,line3,line4,line5_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1,centre1_1,top1line1_1,top1line2_1,top1line3_1,top1line4_1,top1line5_1,top1line6_1,top1line7_1,top1line8_1,top1line9_1])
+
+ply_write('top22',[centre1_1,top1line1_1,top1line2_1,top1line3_1,top1line4_1,top1line5_1,top1line6_1,top1line7_1,top1line8_1,top1line9_1,underpoints2,underpoints1_1,underpoint_1,underpoints3_1,underpoints4_1])
+
+[[top1line3_1(:,8:30)],[top1line3_1(1,8:30)+1;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)+2;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)+3;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)+4;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)-3;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)-2;top1line3_1(2,8:30);top1line3_1(3,8:30)],[top1line3_1(1,8:30)-1;top1line3_1(2,8:30);top1line3_1(3,8:30)]])
+
+ply_write('outer2',[line1,line2_1,line3,line4,line5_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1,centre1_1,top1line1_1,top1line2_1,top1line3_1,top1line4_1,top1line5_1,top1line6_1,top1line7_1,top1line8_1,top1line9_1,underpoints2,underpoints1_1,underpoint_1,underpoints3_1,underpoints4_1])
+
+plotpoints([line1,line2_1,line3,line4,line5_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1,centre1_1,top1line1_1,top1line2_1,top1line3_1,top1line4_1,top1line5_1,top1line6_1,top1line7_1,top1line8_1,top1line9_1,underpoints2,underpoints1_1,underpoint_1,underpoints3_1,underpoints4_1,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20])
+
+plotpoints([line1,line2_1,line3,line4,line5_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1,centre1_1,top1line1_1,top1line2_1,top1line3_1,top1line4_1,top1line5_1,top1line6_1,top1line7_1,top1line8_1,top1line9_1,underpoints2,underpoints1_1,underpoint_1,underpoints3_1,underpoints4_1,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20,inner1,inner2,inner3,inner4,inner5,inner6,inner7,inner8,inner9,inner10,inner11,inner12,inner13,inner14,inner15,inner16,inner17,inner18,inner19])

@@ -1,0 +1,34 @@
+function [ output_args ] = Xray_interpolator( xpoints,xpoints2,ypoints_1,ypoints_2,num_inter)
+%interpolates from end points num_interpolate specifies how many points 2
+%interpolate from end points there number of additional columns are
+%num_inter times 4
+
+[~,cols]=size(xpoints);
+pos1x
+p
+for i=1:num_inter
+interpos_1x=(xpoints(:,i)+xpoints(:,i+1))/2;
+interpos_2x=(xpoints(:,end-i+1)+xpoints(:,end-i))/2;
+
+interpos_1y=(ypoints_1(:,i)+ypoints_1(:,i+1))/2;
+interpos_2y=(ypoints_1(:,end-i+1)+ypoints_1(:,end-i))/2;
+
+
+interneg_1x=(xpoints2(:,i)+xpoints2(:,i+1))/2;
+interneg_2x=(xpoints2(:,end-i+1)+xpoints2(:,end-i))/2;
+
+interneg_1y=(ypoints_2(:,i)+ypoints_2(:,i+1))/2;
+interneg_2y=(ypoints_2(:,end-i+1)+ypoints_2(:,end-i))/2;
+end
+%concat x and y
+xpoints=[xpoints(:,1),interpos_1x,xpoints(:,2:(end-1)),interpos_2x,xpoints2(:,end),interneg_1x,xpoints2(:,2:(end-1)),interneg_2x];
+ypoints=[ypoints_1(:,1),interpos_1y,ypoints_1(:,2:(end-1)),interpos_2y,ypoints_2(:,end),interneg_1y,ypoints_2(:,2:(end-1)),interneg_2y];
+[~,intercols]=size(xpoints)
+
+for i=1:z
+    zee=i*ones(1,intercols);
+    plot3(xpoints(i,:),ypoints(i,:),zee,'.','MarkerSize',0.5)
+end
+axis equal
+end
+

@@ -1,0 +1,9 @@
+plotpoints([line1,line2_1,line3,line4,line5,line6,line7,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line15_1])
+
+line15=line14
+
+plotpoints([line1,line2_1,line3,line4,line5,line6,line7,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line16_1,line17_1,line18_1,line19_1])
+
+plotpoints([line1,line2_1,line3,line4,line5,line6,line7,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1])
+
+line1,line2_1,line3,line4,line5,line6,line7,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line16_1,line17_1,line18_1,line19_1,line20_1,line21_1,line22_1,line23_1,line24_1

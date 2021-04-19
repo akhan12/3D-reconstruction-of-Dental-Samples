@@ -1,0 +1,5 @@
+[test,testtrans,testrot,firstrecon]=Outer_reconstruction([vnslopeint(1),vnintercepts(1);vzslopeint(1),vzintercepts(1)],angles,outerninty,outerzero);
+
+ threedPlotter_interpolate(firstrecon,'incisor',30)
+
+ [canal_format,canalformat3d]=InnerReconstruction(nintyinner,zeroinner,[vnslopeint(1),vnintercepts(1);vzslopeint(1),vzintercepts(1)],angles);

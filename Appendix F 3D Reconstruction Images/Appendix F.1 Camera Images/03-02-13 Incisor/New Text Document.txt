@@ -1,0 +1,5 @@
+plotpoints([line1,line2_1,line3_1,line4_1,line5_1,top_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1])
+
+ply_write('test',[line1,line2_1,line3_1,line4_1,line5_1,top_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,line8_9])
+
+ply_write('test',[line1,line2_1,line3_1,line4_1,line5_1,top_1,line6_1,line7_1,line8_1,line9_1,line10_1,line11_1,line12_1,line13_1,line14_1,i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14])
